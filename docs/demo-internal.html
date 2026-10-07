@@ -18,7 +18,7 @@
     else {
       const body = document.querySelector('body')
       const iframe = document.createElement('iframe')
-      iframe.setAttribute('src', `https://warc-embed.lil.tools/?source=${collectionId}.wacz`)
+      iframe.setAttribute('src', `https://wacz-exhibitor.lil.tools/?source=https://lil-museum.s3.amazonaws.com/warcembed-demo/${collectionId}.wacz`)
       iframe.setAttribute('sandbox', 'allow-scripts allow-modals allow-forms allow-same-origin')
       body.appendChild(iframe)
     }
